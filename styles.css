@@ -49,23 +49,27 @@ a{
 }
 
 .Odin-bg{
-    width:500px;
-    display: block;
+    max-width: 800px;
+    width: 600px;
+    min-width: 300px;
+    flex-wrap:wrap;
 }
 
 .hero-section{
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-between;
-    padding:7% 10%;
+    justify-content:space-between;
+    gap: 20px;
+    padding:5% 10%;
 }
 
 .hero{
+    flex:1;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap:20px;
+    gap:10px;
     padding: 10px;
 }
 
@@ -165,10 +169,19 @@ a{
     padding: 40px 10%;
     display: flex;
     justify-content: space-between;
+    gap:10px;
 }
 
 .cta-box .cta{
     border:2px solid #F9FAF8;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.cta-text{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 footer{
